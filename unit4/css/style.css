@@ -1,0 +1,42 @@
+body {
+	text-align: center;
+	background: url("../assets/blackcatbackground.jpeg");
+	background-size: cover;
+	text-shadow: gray;
+}
+h1 {
+	
+	font-family: 'Droid Serif', serif;
+	font-size: 36pt;
+	font-weight: lighter;
+	/*color: white;*/
+}
+
+h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:24pt;
+	font-weight: bolder;
+	/*color: white;*/
+}
+
+p {
+	font-family: 'Droid Serif', serif;
+	font-size: 14pt;
+	font-weight: lighter;
+	/*color: white;*/
+}
+
+#div1 {
+	text-align: left;
+	height: 200px;
+}
+
+#hr1 {
+	text-align: center;
+	width: 100px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: black;
+}
+
+
