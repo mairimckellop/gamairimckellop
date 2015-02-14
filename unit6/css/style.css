@@ -3,7 +3,7 @@ body {
 	font-family: 'Gentium Basic', serif;
 	background: url("../assets/background.jpg");
 	background-size: cover;
-	margin: 0 auto;
+	margin: auto;
 }
 
 h1 {
@@ -17,21 +17,38 @@ h1 {
 h2 {
 	font-family: 'Open Sans', sans-serif;
 	font-size:24pt;
-	font-weight: bolder;
+	font-weight: normal;
 	color: black;
 	letter-spacing: 3px;
+	padding: 0px;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Gentium Basic', serif;
+	font-size: 13pt;
+	font-weight: 600;
+	font-style: italic;
+	color: black;
+	width:90%;
+	margin: auto;
 }
 
 p {
-	font-family: 'Gentium Basic', serif;
-	font-size: 14pt;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11pt;
 	font-weight: lighter;
 	letter-spacing: 1px;
+	width: 90%;
+	margin: 15px 0 0 15px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
 }
 
 header {
 	width: 100%;
-	height: 65px;
+	height: 55px;
 	position: fixed;
 	background-color: rgb(0,0,0);
 }
@@ -48,7 +65,7 @@ nav {
 	letter-spacing: 2px;
 	margin: 0 auto;
 	text-align: center;
-	font-size: 13px;
+	font-size: 12px;
 	width: 416px;
 }
 
@@ -79,11 +96,24 @@ a:hover {
 #div1 {
 	background: rgba(255,255,255,0.5);
 	width:60%;
-	margin:0 auto;
-	padding:20px;
+	margin: auto;
+	padding-top: 30px;
 }
 
 #div1 img {
-	width: 100%;
+	width: 50%;
 	display: block;
+	margin: 25px 0 0 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+
+}
+
+#footer {
+	width: 100%;
+	height: 55px;
+	margin: 0 auto;
+	padding: 0px;
+	background-color: rgb(0,0,0);
 }
