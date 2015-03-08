@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 2em;
 	font-weight: normal;
 	color: black;
@@ -42,10 +42,10 @@ h3 {
 }
 
 p {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
 	font-weight: lighter;
-	letter-spacing: .14em;
+	letter-spacing: .1em;
 	width: 80%;
 	margin: 20px 0 0 20px;
 	margin-left: auto;
@@ -104,13 +104,14 @@ a:hover {
 
 #div1 {
 	background: rgba(255,255,255,0.5);
-	width:60%;
+	width:80%;
 	margin: auto;
 	padding-top: 30px;
 }
 
 #div1 img {
-	width: 50%;
+	width: 40%;
+	height:40%;
 	display: block;
 	margin: 20px 20px 0 20px;
 	margin-left: auto;
